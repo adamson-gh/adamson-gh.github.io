@@ -6,39 +6,114 @@
   <title>Adamson — Tools</title>
   <meta name="description" content="Small local-first tools. Offline utilities with minimal friction." />
   <style>
-    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; max-width: 820px; margin: 40px auto; padding: 0 16px; line-height: 1.45; }
-    h1 { font-size: 28px; margin: 0 0 8px; }
-    .sub { color: #444; margin: 0 0 22px; }
-    .card { border: 1px solid #ddd; border-radius: 12px; padding: 16px; margin: 14px 0; }
-    .name { font-weight: 700; font-size: 18px; margin: 0 0 6px; }
-    .meta { color: #333; margin: 0 0 10px; }
-    a { text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .small { color: #555; font-size: 13px; margin-top: 10px; }
-    code { background: #f4f4f4; padding: 2px 6px; border-radius: 6px; }
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      max-width: 820px;
+      margin: 48px auto;
+      padding: 0 18px;
+      line-height: 1.5;
+      color: #222;
+      background: #fff;
+    }
+
+    h1 {
+      font-size: 30px;
+      margin: 0 0 6px;
+      letter-spacing: -0.3px;
+    }
+
+    .sub {
+      color: #555;
+      margin: 0 0 28px;
+      font-size: 15px;
+    }
+
+    .card {
+      border: 1px solid #e2e2e2;
+      border-radius: 14px;
+      padding: 18px 18px 16px;
+      margin: 16px 0 26px;
+      background: #fafafa;
+    }
+
+    .name {
+      font-weight: 700;
+      font-size: 19px;
+      margin: 0 0 8px;
+      letter-spacing: -0.2px;
+    }
+
+    .meta {
+      color: #333;
+      margin: 0 0 12px;
+      font-size: 15px;
+    }
+
+    .links {
+      margin: 6px 0 10px;
+      font-size: 14px;
+    }
+
+    a {
+      color: #0b63ce;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .small {
+      color: #666;
+      font-size: 13px;
+      margin-top: 8px;
+    }
+
+    code {
+      background: #ececec;
+      padding: 2px 6px;
+      border-radius: 6px;
+      font-size: 13px;
+    }
+
+    footer {
+      margin-top: 42px;
+      padding-top: 18px;
+      border-top: 1px solid #eee;
+      color: #666;
+      font-size: 13px;
+    }
   </style>
 </head>
 <body>
+
   <h1>Adamson — Tools</h1>
   <p class="sub">Small, local-first utilities. Offline by default. Minimal overhead.</p>
 
   <div class="card">
     <p class="name">PDF2Text Local</p>
+
     <p class="meta">
-Offline PDF → text converter for Windows. Extracts embedded/selectable text and saves a <code>.txt</code> next to the PDF.
-<br>
-Offline PDF to text converter for Windows. Extract text locally without uploading files.
-</p>
-      <a href="https://github.com/adamson-gh/adamson-gh.github.io/releases/download/v1/pdf2text.zip">Download (zip)</a>
-      · <a href="https://github.com/adamson-gh/adamson-gh.github.io/blob/main/README.txt">Readme</a>
+      Offline PDF → text converter for Windows. Extracts embedded/selectable text and saves a <code>.txt</code> next to the PDF.
+      <br>
+      Offline PDF to text converter for Windows. Extract text locally without uploading files.
     </p>
+
+    <div class="links">
+      <a href="https://github.com/adamson-gh/adamson-gh.github.io/releases/download/v1/pdf2text.zip">Download (zip)</a>
+      ·
+      <a href="https://github.com/adamson-gh/adamson-gh.github.io/blob/main/README.txt">Readme</a>
+    </div>
+
     <p class="small">
-      Note: Scanned/image-only PDFs need OCR (not included in v1).
+      Note: Scanned/image-only PDFs require OCR (not included in v1).
     </p>
   </div>
 
-  <p class="small">
+  <footer>
     Contact: <em>hoopstacken@gmail.com</em>
-  </p>
+  </footer>
+
 </body>
 </html>
